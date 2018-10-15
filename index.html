@@ -10,15 +10,14 @@
 
     <title>Geofusions GIS Studio</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- CSS: Custom icons, fonts, and styles -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
   </head>
@@ -26,22 +25,22 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Geofusions</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-secondary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars fa-2x"></i>
+        <a class="navbar-brand js-scroll-trigger text-light" href="#page-top">Geofusions</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-dark rounded text-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-light" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-light" href="#about">About</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-light" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -49,16 +48,18 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
-      <div class="container">
-        <h1 class="text-uppercase mb-0">Hi, welcome to Geofusions!</h1>
-        <h2 class="font-weight-light mb-0"><br>A team of experts who create tailored and attractive interactive GIS applications for the web.</h2>
-      </div>
+    <header class="masthead">
+      <div class="container-fluid">
+        <div class ="intro-text">
+          <h1 class="text-uppercase mb-0">Hi, welcome to Geofusions!</h1>
+          <h2 class="font-weight-light mb-0"><br>A team of experts who create tailored and attractive interactive GIS applications for the web.</h2>
+        </div>
+       </div>
     </header>
 
     <!-- Portfolio Section -->
     <section class="portfolio" id="portfolio">
-      <div class="container">
+      <div class="container-fluid">
         <h2>Portfolio</h2>
         <div class="row">
           <div class="col-lg-4 col-sm-6 mb-4">
@@ -100,7 +101,7 @@
 
     <!-- About Section -->
     <section class="bg-primary text-white mb-0" id="about">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12">
             <h2 class="my-4">Our Team</h2>
@@ -140,7 +141,7 @@
 
     <!-- Contact Section -->
     <section id="contact">
-      <div class="container">
+      <div class="container-fluid">
         <h2>Would you like our help?</h2>
         <h4>Send us a message! We are always looking for intersting projects to contribute to and collaborate on. Please contact us - we will respond quickly!
         <div class="row">
@@ -173,8 +174,8 @@
       </div>
     </section>
 
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
+    <div class="copyright py-4 text-center bg-dark text-white">
+      <div class="container-fluid">
         <small>Copyright &copy; Geofusions 2018</small>
       </div>
     </div>
