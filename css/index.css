@@ -1,16 +1,43 @@
-header.masthead {
-  text-align: center;
-  color: white;
-  background-image: url("../img/earth-lights.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+
+section {
+	padding-top: 70px;
+	padding-bottom: 60px;
 }
 
-
-header.masthead .intro-text {
-  padding-top: 200px;
-  padding-bottom: 150px;
+header {
+	text-align: center;
+	color: white;
+	background-image: url("../img/earth-lights.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 50% 25%;
+	background-size: cover;
+	padding-top: 170px;
+	padding-bottom: 100px;
 }
 
+@media (max-width: 979px) {
+	header {
+		padding-top: 30px;
+		background-position: 35% 50%;
+	}
+}
+
+.headline {
+	text-align:center;
+	padding:2.5rem 0;
+}
+
+.headline h1 {
+	margin: 0 auto;
+}
+
+.headline h2 {
+	margin: 0 auto;
+	max-width: 720px;
+}
+
+.section.section--contact h2,h4 {
+	margin: 0 auto;
+	max-width: 800px;
+}
